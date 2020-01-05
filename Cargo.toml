@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["Elliott Mahler <join.together@gmail.com>"]
 edition = "2018"
 description = "Compile a crate and run cbindgen on it in a single command."
+repository = "https://github.com/ejmahler/unreal_rust_compile"
 
 [profile.release]
 lto = "thin"
