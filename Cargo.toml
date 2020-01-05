@@ -1,0 +1,16 @@
+[package]
+name = "unreal_rust_compile_demo"
+version = "0.1.0"
+authors = ["Elliott Mahler <join.together@gmail.com>"]
+edition = "2018"
+description = "Compile a crate and run cbindgen on it in a single command."
+
+[profile.release]
+lto = "thin"
+
+[dependencies]
+cbindgen = "~0.12.0"
+
+[dependencies.clap]
+version = "~2.33.0"
+default-features = false
